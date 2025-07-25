@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "bumpVersions": [
+    {
+      "filePatterns": ["**/Chart.yaml"],
+      "matchStrings": ["^version:\\s*(?<version>[0-9]+\\.[0-9]+\\.[0-9]+)$"],
+      "bumpType": "minor"
+    }
+  ]
+}
