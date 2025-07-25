@@ -1,7 +1,7 @@
 apiVersion: v2
 name: deconz
-version: 1.0.5
+version: 1.0.6
 home: https://github.com/deconz-community/deconz-docker
 type: application
 # renovate: image=ghcr.io/deconz-community/deconz-docker
-appVersion: "2.30.1"
+appVersion: "2.30.2"
