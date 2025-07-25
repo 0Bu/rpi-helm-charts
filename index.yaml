@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  deconz:
+  - apiVersion: v2
+    appVersion: 2.30.0
+    created: "2025-07-25T21:00:16.24624605Z"
+    digest: da59096ab6b9343e724654a987f351a446489d77b5ac8091523e74663f8cd1d8
+    home: https://github.com/deconz-community/deconz-docker
+    name: deconz
+    type: application
+    urls:
+    - https://github.com/0Bu/rpi-helm-deconz/releases/download/deconz-1.0.1/deconz-1.0.1.tgz
+    version: 1.0.1
+generated: "2025-07-25T21:00:16.246321501Z"
