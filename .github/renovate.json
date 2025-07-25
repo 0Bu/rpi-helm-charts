@@ -1,0 +1,9 @@
+{
+  "bumpVersions": [
+    {
+      "filePatterns": ["**/Chart.yaml"],
+      "matchStrings": ["version:\\s(?<version>[^\\s]+)"],
+      "bumpType": "patch"
+    }
+  ]
+}
