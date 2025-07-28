@@ -1,17 +1,21 @@
-# [deCONZ](https://phoscon.de)
-- [GitHub](https://github.com/dresden-elektronik/deconz-rest-plugin)
-- [Docker image](https://github.com/deconz-community/deconz-docker)
+# RPi Helm charts
 
-## Helm install/upgrade
-```
-helm install deconz charts/deconz \
---set host=pi4a \
---set loadBalancerIPs=192.168.1.26 \
---set device=/dev/ttyUSB0 \
---set vncPassword=deconz
-```
+## Usage
 
-## Helm unintall
-```
-helm uninstall deconz
-```
+1. Install [helm](https://helm.sh). See [helm documentation](https://helm.sh/docs/).
+
+2. Add the helm repository:
+
+   ```console
+   helm repo add rpi-helm-charts https://0bu.github.io/rpi-helm-charts
+   ```
+
+3. Install helm chart:
+
+   ```console
+   helm install deconz rpi-helm-charts/deconz ...
+   ```
+
+## License
+
+[MIT License](./LICENSE)

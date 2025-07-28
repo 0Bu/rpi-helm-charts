@@ -5,5 +5,12 @@
       "matchStrings": ["version:\\s(?<version>[^\\s]+)"],
       "bumpType": "patch"
     }
+  ],
+  "packageRules": [
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["homebridge/homebridge"],
+      "versioning": "loose"
+    }
   ]
 }
