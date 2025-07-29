@@ -1,10 +1,13 @@
 {
-  "packageRules": [
+  "customManagers": [
     {
-      "matchDatasources": ["docker"],
-      "matchPackageNames": ["homebridge/homebridge"],
-      "versioning": "loose"
-    },
+      "customType": "regex",
+      "managerFilePatterns": ["**/Chart.yaml"],
+      "matchStrings": ["# renovate: datasource=(?<datasource>\\S+) depName=(?<depName>\\S+)( versioning=(?<versioning>\\S+))?.*?\\n(?<depNameField>\\S+):\\s*\"?(?<currentValue>[^\"\\s]+)\"?"],
+      "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}loose{{/if}}"
+    }
+  ],
+  "packageRules": [
     {
       "matchFileNames": ["charts/**"],
       "bumpVersions": [
