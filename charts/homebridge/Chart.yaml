@@ -2,6 +2,6 @@ apiVersion: v2
 name: homebridge 
 description: https://github.com/homebridge/homebridge
 type: application
-version: 1.0.8
+version: 1.0.9
 # renovate: datasource=docker depName=ghcr.io/homebridge/homebridge versioning=loose
-appVersion: "2025-08-20"
+appVersion: "2025-08-29"
