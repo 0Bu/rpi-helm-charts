@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   deconz:
   - apiVersion: v2
+    appVersion: 2.32.4
+    created: "2026-01-17T15:26:25.837506118Z"
+    digest: 69ba26845d74d81058eed7dbda1590a17b931d513df6eb94940b7608a42779dd
+    home: https://github.com/deconz-community/deconz-docker
+    name: deconz
+    type: application
+    urls:
+    - https://github.com/0Bu/rpi-helm-charts/releases/download/deconz-1.0.11/deconz-1.0.11.tgz
+    version: 1.0.11
+  - apiVersion: v2
     appVersion: 2.32.3
     created: "2026-01-15T13:48:37.427750976Z"
     digest: af814d30c6d30daf5bc4f7c8fb78b479fc0292c01ab36e92f3f40a5c5b72fca7
@@ -642,4 +652,4 @@ entries:
     urls:
     - https://github.com/0Bu/rpi-helm-charts/releases/download/homebridge-1.0.0/homebridge-1.0.0.tgz
     version: 1.0.0
-generated: "2026-01-15T13:48:37.427941862Z"
+generated: "2026-01-17T15:26:25.837648603Z"
