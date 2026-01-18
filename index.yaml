@@ -114,6 +114,16 @@ entries:
   homebridge:
   - apiVersion: v2
     appVersion: "2026-01-14"
+    created: "2026-01-18T10:28:35.574749686Z"
+    description: https://github.com/homebridge/homebridge
+    digest: dd249a01d8068b781d69fb2d33062faae6e74eabe578d112a8947037839df2a9
+    name: homebridge
+    type: application
+    urls:
+    - https://github.com/0Bu/rpi-helm-charts/releases/download/homebridge-1.0.54/homebridge-1.0.54.tgz
+    version: 1.0.54
+  - apiVersion: v2
+    appVersion: "2026-01-14"
     created: "2026-01-14T10:32:55.971560546Z"
     description: https://github.com/homebridge/homebridge
     digest: 940d0e0848ffad3f0190f849f473482b9c9d95506ef1578cab78a90a021d1f18
@@ -652,4 +662,4 @@ entries:
     urls:
     - https://github.com/0Bu/rpi-helm-charts/releases/download/homebridge-1.0.0/homebridge-1.0.0.tgz
     version: 1.0.0
-generated: "2026-01-17T15:26:25.837648603Z"
+generated: "2026-01-18T10:28:35.574959127Z"
