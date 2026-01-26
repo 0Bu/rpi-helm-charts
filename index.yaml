@@ -712,6 +712,17 @@ entries:
     urls:
     - https://github.com/0Bu/rpi-helm-charts/releases/download/homebridge-1.0.0/homebridge-1.0.0.tgz
     version: 1.0.0
+  node-red:
+  - apiVersion: v2
+    appVersion: 4.1.4-22
+    created: "2026-01-26T14:31:00.548401966Z"
+    description: https://nodered.org
+    digest: af22bf973c55bd21bb301ee3586e3160e0736c41d055381569e9890fa8447832
+    name: node-red
+    type: application
+    urls:
+    - https://github.com/0Bu/rpi-helm-charts/releases/download/node-red-1.0.0/node-red-1.0.0.tgz
+    version: 1.0.0
   zigbee2mqtt:
   - apiVersion: v2
     appVersion: 2.7.2
@@ -723,4 +734,4 @@ entries:
     urls:
     - https://github.com/0Bu/rpi-helm-charts/releases/download/zigbee2mqtt-1.0.0/zigbee2mqtt-1.0.0.tgz
     version: 1.0.0
-generated: "2026-01-26T14:28:15.101037069Z"
+generated: "2026-01-26T14:31:00.548525436Z"
