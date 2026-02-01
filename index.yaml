@@ -745,6 +745,16 @@ entries:
     version: 1.0.0
   zigbee2mqtt:
   - apiVersion: v2
+    appVersion: 2.8.0
+    created: "2026-02-01T20:35:34.335271969Z"
+    description: https://zigbee2mqtt.io
+    digest: 40bdfa90b63485601aff1b24754b80f87d4ff20e82fc2bbee914d47e8ace28b8
+    name: zigbee2mqtt
+    type: application
+    urls:
+    - https://github.com/0Bu/rpi-helm-charts/releases/download/zigbee2mqtt-1.0.1/zigbee2mqtt-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     appVersion: 2.7.2
     created: "2026-01-26T14:28:15.100811811Z"
     description: https://zigbee2mqtt.io
@@ -754,4 +764,4 @@ entries:
     urls:
     - https://github.com/0Bu/rpi-helm-charts/releases/download/zigbee2mqtt-1.0.0/zigbee2mqtt-1.0.0.tgz
     version: 1.0.0
-generated: "2026-02-01T10:33:57.4260858Z"
+generated: "2026-02-01T20:35:34.33540916Z"
