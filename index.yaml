@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   deconz:
   - apiVersion: v2
+    appVersion: 2.32.5
+    created: "2026-02-05T13:16:41.370311712Z"
+    digest: 0eff941168b81fbbd50659497d4f125d8a26f2118bc879b242de94ddf1a34cbf
+    home: https://github.com/deconz-community/deconz-docker
+    name: deconz
+    type: application
+    urls:
+    - https://github.com/0Bu/rpi-helm-charts/releases/download/deconz-1.0.13/deconz-1.0.13.tgz
+    version: 1.0.13
+  - apiVersion: v2
     appVersion: 2.32.4
     created: "2026-02-05T13:16:31.554122856Z"
     digest: 20c9fa6d23870e363f7ed61317413f518e6fe6761b4dd508a524d3094c5f3d05
@@ -774,4 +784,4 @@ entries:
     urls:
     - https://github.com/0Bu/rpi-helm-charts/releases/download/zigbee2mqtt-1.0.0/zigbee2mqtt-1.0.0.tgz
     version: 1.0.0
-generated: "2026-02-05T13:16:31.554325145Z"
+generated: "2026-02-05T13:16:41.3705099Z"
