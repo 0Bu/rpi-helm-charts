@@ -855,6 +855,16 @@ entries:
   node-red:
   - apiVersion: v2
     appVersion: 4.1.5-22
+    created: "2026-02-26T10:51:35.187680884Z"
+    description: https://nodered.org
+    digest: a580de3e0366a74a292acd904f9bd3c860ad8b19f7e882542139a0d2898448b9
+    name: node-red
+    type: application
+    urls:
+    - https://github.com/0Bu/rpi-helm-charts/releases/download/node-red-1.0.2/node-red-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 4.1.5-22
     created: "2026-02-11T12:13:54.581686392Z"
     description: https://nodered.org
     digest: 68592d525569a762e5f48de7f8cfd72dcf8608fe080e7072de156871a132d192
@@ -894,4 +904,4 @@ entries:
     urls:
     - https://github.com/0Bu/rpi-helm-charts/releases/download/zigbee2mqtt-1.0.0/zigbee2mqtt-1.0.0.tgz
     version: 1.0.0
-generated: "2026-02-25T10:58:52.551424642Z"
+generated: "2026-02-26T10:51:35.187945628Z"
