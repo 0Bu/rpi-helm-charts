@@ -174,6 +174,16 @@ entries:
   homebridge:
   - apiVersion: v2
     appVersion: "2026-06-24"
+    created: "2026-07-12T11:27:20.09909533Z"
+    description: https://github.com/homebridge/homebridge
+    digest: 16b5644e431e15215d7b2afd8a7522347058653fbbff0e092e1da2a89caf3193
+    name: homebridge
+    type: application
+    urls:
+    - https://github.com/0Bu/rpi-helm-charts/releases/download/homebridge-1.0.105/homebridge-1.0.105.tgz
+    version: 1.0.105
+  - apiVersion: v2
+    appVersion: "2026-06-24"
     created: "2026-06-24T12:53:08.15451693Z"
     description: https://github.com/homebridge/homebridge
     digest: a92f114683cfc31eb1a931ca2278cb46d191ab14adc2fa11007e83de896dd981
@@ -1354,4 +1364,4 @@ entries:
     urls:
     - https://github.com/0Bu/rpi-helm-charts/releases/download/zigbee2mqtt-1.0.0/zigbee2mqtt-1.0.0.tgz
     version: 1.0.0
-generated: "2026-07-01T07:39:02.822956794Z"
+generated: "2026-07-12T11:27:20.099499131Z"
