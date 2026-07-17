@@ -1,6 +1,6 @@
 image:
   repository: ghcr.io/deconz-community/deconz-docker
-  tag: stable@sha256:85afe468cc853d40b77be601a4d10e421eb667d9d90ae6978eb84226fcb70885
+  tag: stable@sha256:3defae1287ecc1a73b68279e12579a5a5e997a83f4ff785fe4bc30f21faf8015
 nfs:
   server: 192.168.1.4
   path: /nfs/deconz
